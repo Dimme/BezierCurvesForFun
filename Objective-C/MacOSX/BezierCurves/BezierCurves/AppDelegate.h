@@ -3,20 +3,13 @@
 //  BezierCurves
 //
 //  Created by Dimitrios Vlastaras on 1/13/12.
-//  Copyright __MyCompanyName__ 2012. All rights reserved.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "cocos2d.h"
+#import <Cocoa/Cocoa.h>
 
-@interface BezierCurvesAppDelegate : NSObject <NSApplicationDelegate>
-{
-	NSWindow	*window_;
-	MacGLView	*glView_;
-}
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow	*window;
-@property (assign) IBOutlet MacGLView	*glView;
-
-- (IBAction)toggleFullScreen:(id)sender;
+@property (assign) IBOutlet NSWindow *window;
 
 @end
