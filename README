@@ -1,0 +1,6 @@
+I started this project as I realized that Bezier curves are much easier to understand once you see how they actually work.
+
+Math teachers put too much effort into transforming something easy into something too hard.
+
+Here I will put my own implementations of Bezier curves in various languages using various algorithms.
+
