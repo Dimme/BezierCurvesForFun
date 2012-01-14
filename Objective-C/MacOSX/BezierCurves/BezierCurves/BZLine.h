@@ -9,11 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 
-@interface BZLine : CCNode {
-    CGPoint point1;
-    CGPoint point2;
-    CGPoint point3;
-    CGPoint point4;
-}
+@interface BZLine : CCNode 
+
+-(CGPoint)between:(CGPoint)point1 and:(CGPoint)point2 now:(double)now;
 
 @end
