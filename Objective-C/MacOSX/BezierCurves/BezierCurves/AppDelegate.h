@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "cocos2d.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
