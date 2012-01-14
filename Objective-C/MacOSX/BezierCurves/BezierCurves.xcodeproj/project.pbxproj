@@ -306,7 +306,7 @@
 		7475F7DC14C12B9E00FB33C8 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		7475F92D14C13A4400FB33C8 /* BZLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZLine.h; sourceTree = "<group>"; };
 		7475F92E14C13A4400FB33C8 /* BZLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZLine.m; sourceTree = "<group>"; };
-		7475F93214C14F4E00FB33C8 /* bezier.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = bezier.icns; sourceTree = "<group>"; };
+		7475F93214C14F4E00FB33C8 /* bezier.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = bezier.icns; path = ../bezier.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,7 +329,6 @@
 		7475F69E14C12B9A00FB33C8 = {
 			isa = PBXGroup;
 			children = (
-				7475F93214C14F4E00FB33C8 /* bezier.icns */,
 				7475F6B914C12B9A00FB33C8 /* BezierCurves */,
 				7475F6AC14C12B9A00FB33C8 /* Frameworks */,
 				7475F6AA14C12B9A00FB33C8 /* Products */,
@@ -376,6 +375,7 @@
 		7475F6BA14C12B9A00FB33C8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7475F93214C14F4E00FB33C8 /* bezier.icns */,
 				7475F6C214C12B9A00FB33C8 /* fps_images.png */,
 				7475F6C414C12B9A00FB33C8 /* icon.icns */,
 				7475F6C614C12B9A00FB33C8 /* Info.plist */,
