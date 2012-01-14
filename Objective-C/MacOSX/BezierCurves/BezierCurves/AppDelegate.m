@@ -27,8 +27,7 @@
 	
 	// Enable "moving" mouse event. Default no.
 	[window_ setAcceptsMouseMovedEvents:NO];
-	
-	
+    
 	[director runWithScene:[HelloWorldLayer scene]];
 }
 

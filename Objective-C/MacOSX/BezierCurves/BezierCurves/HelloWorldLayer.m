@@ -9,6 +9,7 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
+#import "BZLine.h"
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -35,17 +36,18 @@
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
 		
-		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello Cristina" fontName:@"Marker Felt" fontSize:64];
-
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
-	
-		// position the label on the center of the screen
-		label.position =  ccp( size.width /2 , size.height/2 );
-		
-		// add the label as a child to this Layer
-		[self addChild: label];
+        
+        BZLine * line = [[BZLine alloc] init];
+        line.position = ccp( size.width /2 , size.height/2 );
+        [self addChild:line];
+        
+        CCLabelTTF * about = [CCLabelTTF labelWithString:@"Animating Bézier Curve by Dimme" fontName:@"Verdana" fontSize:20];
+        about.position = ccp(size.width-180, size.height-10);
+        [self addChild:about];
+        
+        [[CCDirector sharedDirector] setDisplayFPS:NO];
 	}
 	return self;
 }
